@@ -13,6 +13,8 @@
     "lint"
   ],
   "dependencies": {
-	"node-lambda": "^0.8.11"
+	"node-lambda": "^0.8.11",
+	 "webpack": "^1.13.3",
+    "webpack-notifier": "^1.4.1"
   }
 }
