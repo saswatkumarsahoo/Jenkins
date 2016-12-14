@@ -1,5 +1,5 @@
 exports.handler = function(event, context, callback) {
-  console.log("Hello "+event.key);
+  console.log("Hello World from->"+event.key);
 
 callback(null, event);  
 }
