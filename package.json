@@ -13,8 +13,33 @@
     "lint"
   ],
   "dependencies": {
-	"node-lambda": "^0.8.11",
-	 "webpack": "1.13.3",
+    "lodash": "^4.16.6",
+    "moment": "^2.16.0",
+    "mysql": "^2.12.0",
+    "node-fetch": "^1.6.3",
+    "numeral": "^1.5.3",
+    "sequelize": "^3.26.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-latest-minimal": "^1.1.2",
+    "chai": "^3.5.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "json-loader": "^0.5.4",
+    "mocha": "^3.1.2",
+    "node-lambda": "^0.8.11",
+    "pre-commit": "^1.1.3",
+    "present": "^1.0.0",
+    "sequelize-cli": "^2.4.0",
+    "sinon": "^1.17.6",
+    "webpack": "^1.13.3",
     "webpack-notifier": "^1.4.1"
   }
 }
