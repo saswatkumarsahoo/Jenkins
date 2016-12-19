@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch",
-	"package": "webpack && node-lambda package --prebuiltDirectory dist --packageDirectory build"
+	"package": "webpack ; node-lambda package --prebuiltDirectory dist --packageDirectory build"
   },
   "author": "Robin Mitra <robin.mitra@accenture.com>",
   "license": "ISC",
