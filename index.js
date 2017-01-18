@@ -5,3 +5,5 @@ callback(null, "Hello World from->"+event.key);
 }
 
 console.log("Hello");
+
+console.log(process.env);
